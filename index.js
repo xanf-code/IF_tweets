@@ -20,7 +20,7 @@ const rulesURL = 'https://api.twitter.com/2/tweets/search/stream/rules'
 const streamURL =
     'https://api.twitter.com/2/tweets/search/stream?tweet.fields=public_metrics&expansions=author_id'
 
-const rules = [{ value: 'IndianFootball' }, { value: 'ISL ' }, { value: 'IFTWC' }, { value: 'BengaluruFC' }]
+const rules = [{ value: 'from:SohanPodder2 from:debapriya_deb from:MarcusMergulhao' },{ value: 'IndianFootball' }, { value: 'ISL ' }, { value: 'IFTWC' }, { value: 'BengaluruFC' }]
 
 // Get stream rules
 async function getRules() {
